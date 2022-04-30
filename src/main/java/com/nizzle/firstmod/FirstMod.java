@@ -28,7 +28,6 @@ public class FirstMod
 
     public FirstMod()
     {
-
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         eventBus.addListener(this::setup);
 
